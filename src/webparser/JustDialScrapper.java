@@ -35,7 +35,7 @@ public class JustDialScrapper {
 		model2.setRatingValue("Rating");
 		model2.setYear("Estd.in Year");
 		model2.setTags(Arrays.asList("Tags"));
-		model2.setJustDialLink("JustDial Link");
+		model2.setMoreInfoLink("JustDial Link");
 		model2.setHoursOfOperation("Hours Of Operation");
 		restList.add(model2);
 		CompanyModel model1 = new CompanyModel();
@@ -157,7 +157,7 @@ public class JustDialScrapper {
 									System.out.println("name : " + mainElement.getElementsByAttribute("title").text());
 									String detailsPageLink = elementTitle.attr("href");
 									model = new CompanyModel();
-									model.setJustDialLink(detailsPageLink);
+									model.setMoreInfoLink(detailsPageLink);
 									Document detailDoc = Jsoup.connect(detailsPageLink)
 											.userAgent("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.21"
 													+ " (KHTML, like Gecko) Chrome/19.0.1042.0 Safari/535.21")

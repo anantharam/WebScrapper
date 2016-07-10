@@ -5,7 +5,7 @@ import java.util.List;
 public class CompanyModel {
 	
 	private String name;
-	private String justDialLink;
+	private String moreInfoLink;
 	private List<String> phone;
 	private String address;
 	private String landmark;
@@ -105,14 +105,14 @@ public class CompanyModel {
 	/**
 	 * @return the justDialLink
 	 */
-	public String getJustDialLink() {
-		return justDialLink;
+	public String getMoreInfoLink() {
+		return moreInfoLink;
 	}
 	/**
 	 * @param justDialLink the justDialLink to set
 	 */
-	public void setJustDialLink(String justDialLink) {
-		this.justDialLink = justDialLink;
+	public void setMoreInfoLink(String justDialLink) {
+		this.moreInfoLink = justDialLink;
 	}
 	/**
 	 * @return the tags

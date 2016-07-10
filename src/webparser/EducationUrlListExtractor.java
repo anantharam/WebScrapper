@@ -26,8 +26,8 @@ public class EducationUrlListExtractor {
 		model2.setRating("Rating Count");
 		model2.setRatingValue("Rating");
 		model2.setYear("Estd.in Year");
-		model2.setTags("Tags");
-		model2.setJustDialLink("JustDial Link");
+		model2.setTags(Arrays.asList("Tags"));
+		model2.setMoreInfoLink("JustDial Link");
 		model2.setHoursOfOperation("Hours Of Operation");
 		restList.add(model2);
 		CompanyModel model1 = new CompanyModel();

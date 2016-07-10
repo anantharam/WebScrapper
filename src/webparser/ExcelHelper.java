@@ -70,7 +70,7 @@ public class ExcelHelper {
 		}
 		
 	    cell = row.createCell(10);
-		cell.setCellValue(companyModel.getJustDialLink());
+		cell.setCellValue(companyModel.getMoreInfoLink());
 		
 		int count = 11;
 		for(String phoneNumber : companyModel.getPhone()) {
